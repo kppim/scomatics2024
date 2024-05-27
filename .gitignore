@@ -1,0 +1,6 @@
+# Log file
+*.log
+
+# bash file
+*.sh
+*.json
