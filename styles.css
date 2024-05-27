@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Ensure there is no margin around the body */
+    padding: 0; /* Ensure there is no padding around the body */
+}
+
+.bg-darkblue {
+    background-color: #0a1f44; /* Dark Blue */
+}
+
+.bg-purple {
+    background-color: #660066; /* Purple */
+}
+
+.text-yellow {
+    color: #ffd700; /* Yellow */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar {
+    margin-bottom: 0; /* Remove bottom margin from the navbar */
+}
+
+header {
+    background-image: url("header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    margin-top: 0; /* Ensure there is no margin between navbar and header */
+    position: relative;
+    top: 56px; /* Adjust to the height of the navbar */
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    padding: 20px; /* Add padding for spacing around text */
+    border-radius: 8px; /* Optional: rounded corners for the overlay */
+    display: inline-block; /* Ensure the overlay is only as wide as the content */
+}
+
+.header h1 {
+    font-size: 3rem; /* Adjust as needed */
+    font-weight: bold;
+    margin-top: 0; /* Adjust as needed */
+    color: #fff; /* Ensure the font color is white */
+}
+
+.header p {
+    font-size: 1.5rem; /* Adjust as needed */
+    margin-top: 10px; /* Adjust as needed */
+    color: #fff; /* Ensure the font color is white */
+}
+
+section {
+    padding: 60px 0;
+}
+
+section:first-of-type {
+    margin-top: 30px; /* Add margin to the first section for spacing */
+}
+
+footer {
+    background-color: #0a1f44; /* Dark Blue */
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0a1f44;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    display: none; /* Initially hidden */
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+#back-to-top:hover {
+    background-color: #ffd700; /* Yellow */
+}
+
+#back-to-top i {
+    font-size: 24px;
+}
+
+/* The following codes are for the photo of the speakers */
+
+/* Responsive images */
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+/* Limit image size on smaller screens */
+@media (max-width: 576px) {
+    .card-img-top {
+        max-width: 300px; /* Adjust this value as needed */
+        margin: 0 auto; /* Center the image */
+    }
+}
