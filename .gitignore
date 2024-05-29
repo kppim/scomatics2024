@@ -4,3 +4,6 @@
 # bash file
 *.sh
 *.json
+
+# Backup file
+.bak
