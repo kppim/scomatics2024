@@ -24,35 +24,21 @@ body {
     margin-bottom: 0; /* Remove bottom margin from the navbar */
 }
 
-header {
-    background-image: url("header-bg.jpg");
-    background-size: cover;
-    background-position: center;
+.header-image {
+    width: 100%;
+    height: auto;
+    padding-top: 1em;
+}
+
+.header-text {
+    position: absolute;
+    /* bottom: 20px; */
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 100px 0;
-    margin-top: 0; /* Ensure there is no margin between navbar and header */
-    position: relative;
-    top: 56px; /* Adjust to the height of the navbar */
-}
-
-.overlay {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
-    padding: 20px; /* Add padding for spacing around text */
-    border-radius: 8px; /* Optional: rounded corners for the overlay */
-    display: inline-block; /* Ensure the overlay is only as wide as the content */
-}
-
-.header h1 {
-    font-size: 3rem; /* Adjust as needed */
-    font-weight: bold;
-    margin-top: 0; /* Adjust as needed */
-    color: #fff; /* Ensure the font color is white */
-}
-
-.header p {
-    font-size: 1.5rem; /* Adjust as needed */
-    margin-top: 10px; /* Adjust as needed */
-    color: #fff; /* Ensure the font color is white */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
 }
 
 section {

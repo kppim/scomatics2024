@@ -6,4 +6,6 @@
 *.json
 
 # Backup file
-.bak
+*.bak
+#*.*.bak
+
