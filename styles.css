@@ -97,3 +97,16 @@ footer {
         margin: 0 auto; /* Center the image */
     }
 }
+
+/* Adjusting submenu position to the left */
+.nav-item .dropdown-menu > .dropdown-menu {
+  left: -100%; /* Shift the submenu to the left of the parent */
+  top: 0;
+  margin-left: 0; /* No margin for precise alignment */
+  min-width: 200px; /* Ensure a minimum width */
+}
+
+.dropdown-item {
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
